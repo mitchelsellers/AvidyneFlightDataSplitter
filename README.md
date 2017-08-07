@@ -10,6 +10,11 @@ This utility application will take an input .CSV file from an Avidyne IFD540 or 
 4. Copy the AvidyneLog.csv file to the same folder as the unzipped items from #3
 5. Run the .exe, and the files will be created
 
+##Known Limitations
+
+- System will provide output for "updates" or other cycles that did not result in flight, these need to be currently manullay ignored
+- System does not validate integrity of flight data.  Avidyne at times will put in "bad" data if the GPS lock takes a bit.  Future versions should help clean this data
+
 ##Questions
 
 If you have any questions about this utility, please post an issue here on GitHub, or email me directly at msellers@iowacomputergurus.com
